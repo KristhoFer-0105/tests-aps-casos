@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Test APS · Parte I</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/quiz.css?v=1">
+</head>
+<body class="m2">
+<nav class="topnav" aria-label="Módulos"><div class="wrap">
+<a class="brand" href="index.html">APS · Casos clínicos</a>
+<a href="test1.html">Parte I-A · 30 preguntas</a>
+<a href="test2.html" aria-current="page">Parte I-B · 8 casos</a>
+<a href="test3.html">Parte I-C · DNI y derivación</a>
+<a href="pauta.html">Parte II · Pauta</a>
+</div></nav>
+<header class="hero" id="hero"></header>
+<div class="bar"><div class="wrap">
+<div class="stats" id="stats"></div>
+<div class="track"><i id="track"></i></div>
+<div class="tools">
+<button type="button" class="f" data-f="all" aria-pressed="true">Todas</button>
+<button type="button" class="f" data-f="pend" aria-pressed="false">Pendientes</button>
+<button type="button" class="f" data-f="bad" aria-pressed="false">Con errores</button>
+<button type="button" class="f" id="printBtn">Imprimir</button>
+<button type="button" class="f reset" id="reset">Reiniciar módulo</button>
+</div></div></div>
+<div class="wrap">
+<details class="map"><summary>Mapa de preguntas</summary><div class="grid" id="grid"></div>
+<div class="legend"><span><i style="background:var(--ok)"></i>Correcta</span><span><i style="background:var(--warn)"></i>Caso en curso o con algún error</span><span><i style="background:var(--bad)"></i>Incorrecta</span></div></details>
+<main id="main"></main>
+<footer>Elaborado exclusivamente a partir del material del curso Programas de APS (UCM 2026): programas alimentarios PNAC y PACAM, salud del niño, adolescente, mujer, adulto y adulto mayor, PSCV, ECICEP, dependencia severa y VDI. Tus respuestas se guardan solo en este navegador.</footer>
+</div>
+<script src="data/ref.js?v=1"></script>
+<script src="data/t2.js?v=1"></script>
+<script src="assets/quiz.js?v=1"></script>
+</body>
+</html>
