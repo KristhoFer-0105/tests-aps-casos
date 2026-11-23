@@ -23,10 +23,8 @@ window.APS_REF = '' +
 '<tr><td>Talla normal alta</td><td>T/E ≥ +1 y &lt; +2 DE</td><td colspan="2" rowspan="2">Perímetro cefálico/E (hasta 3 años): microcefalia ≤ −2 DE; macrocefalia ≥ +2 DE.</td></tr>' +
 '<tr><td>Talla alta</td><td>T/E ≥ +2 DE</td></tr></tbody></table></div>' +
 
-'<h4>Incremento de peso esperado en la gestación (según estado nutricional al inicio del embarazo)</h4>' +
-'<div class="tbl"><table><thead><tr><th>Estado nutricional inicial</th><th>Incremento total a las 40 semanas</th><th>g/semana desde la semana 11</th></tr></thead><tbody>' +
-'<tr><td>Bajo peso</td><td>12 a 15 kg</td><td>400–600</td></tr><tr><td>Normal</td><td>10 a 13 kg</td><td>330–430</td></tr><tr><td>Sobrepeso</td><td>7 a 10 kg</td><td>230–330</td></tr><tr><td>Obesidad</td><td>6 a 7 kg</td><td>200–330</td></tr></tbody></table></div>' +
-'<p class="note">Para el estado nutricional al inicio se usa el IMC pregestacional (o el del primer control, antes de la semana 12) con los puntos de corte de adulto. Durante la gestación se grafica el IMC en la curva IMC/edad gestacional (Atalah, MINSAL).</p>' +
+'<h4>Gestación</h4>' +
+'<p class="note">El incremento de peso esperado según estado nutricional no está en esta tabla porque se evalúa. Para el estado nutricional al inicio se usa el IMC pregestacional (o el del primer control, antes de la semana 12) con los puntos de corte de adulto. Durante la gestación se grafica el IMC en la curva IMC/edad gestacional (Atalah, MINSAL).</p>' +
 
 '<h4>IMC en personas adultas y mayores</h4>' +
 '<div class="tbl"><table><thead><tr><th>Clasificación</th><th>Adulto 20–64 años (OMS)</th><th>Persona mayor ≥65 años (MINSAL)</th></tr></thead><tbody>' +
